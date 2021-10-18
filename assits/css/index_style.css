@@ -1,0 +1,996 @@
+    /*************************General**************************/
+    
+    .title hr {
+        width: 75px !important;
+        height: 2px !important;
+        background-color: #56b8e9;
+        border: none;
+        margin: auto;
+    }
+    
+    .title {
+        margin-bottom: 35px;
+    }
+    /*************************Navbar*********************************/
+    
+    .navbar img {
+        height: 70px;
+    }
+    
+    .nav-item {
+        text-align: left;
+    }
+    
+    .navbar-toggler {
+        border: none;
+    }
+    
+    .navbar-light .navbar-toggler:focus {
+        border: none;
+        color: transparent;
+    }
+    
+    .navbar-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    
+    .navbar-collapse {
+        position: relative;
+        z-index: 5555;
+        text-align: center;
+    }
+    /****************Start Slogan Section*********************/
+    
+    #slogan img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #slogan img {
+            width: 70%;
+            text-align: center !important;
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 772px) {
+        #slogan .img {
+            text-align: center !important;
+        }
+    }
+    
+    #slogan .left {
+        background-image: url("../imgs/header-side.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #slogan .left {
+            background: none;
+        }
+    }
+    
+    #slogan .left h1 {
+        font-family: "Cairo", sans-serif;
+        font-size: 55px;
+        margin-top: 175px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #slogan .left h1 {
+            font-size: 27px;
+            margin-top: 20px;
+        }
+    }
+    /*************************Start Intro Section********************************/
+    
+    #intro {
+        padding: 30px 0px;
+    }
+    
+    #intro .title h1 {
+        font-family: "Cairo", sans-serif;
+        font-weight: 600;
+        margin: 20px 0px;
+    }
+    
+    #intro p {
+        font-family: "Cairo", sans-serif;
+        font-size: 25px;
+        margin-top: 75px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #intro p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    }
+    
+    #intro img {
+        width: 70%;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #intro .img {
+            text-align: center !important;
+        }
+    }
+    /********************Start Production Section ************************************/
+    
+    #production .title h1 {
+        margin: 20px 0px;
+        font-family: "Cairo", sans-serif;
+        font-weight: 600;
+    }
+    
+    #production .carousel {
+        padding: 90px 0px 60px 0px;
+        background-image: url('../imgs/we-offer.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #production .owl-carousel .owl-nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #production .owl-carousel .owl-stage {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #production .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        font-size: 35px !important;
+        margin-top: 60px;
+    }
+    
+    #production .owl-carousel .owl-nav button.owl-next {
+        margin-right: 25px;
+    }
+    
+    #production .owl-carousel .owl-nav button.owl-next {
+        margin-right: 25px;
+    }
+    
+    #production .owl-carousel .owl-nav button.owl-prev {
+        color: #7C7D81;
+    }
+    
+    #production .owl-carousel .owl-item {
+        width: 320px !important;
+        margin-left: 16px;
+    }
+    
+    #production .owl-carousel .card {
+        width: 20rem;
+        padding: 35px 20px 5px 20px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        border: #E5E5E5 solid 2px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #production .owl-carousel .card {
+            width: 18rem;
+        }
+    }
+    
+    #production .owl-carousel .card img {
+        width: 165px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin: auto;
+        margin-bottom: 13px;
+    }
+    
+    #production .owl-carousel .card h6 {
+        color: #56b8e9;
+        font-family: 'Cairo', sans-serif;
+        margin-bottom: 15px;
+    }
+    
+    #production .owl-carousel .card p {
+        font-family: 'Cairo', sans-serif;
+        font-weight: 600;
+    }
+    
+    */ #production .carousel {
+        padding: 101px 0px 60px 0px;
+        background-image: url("../imgs/we-offer.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #production .owl-carousel .owl-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    
+    #production .owl-carousel .owl-stage {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #production .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        font-size: 35px !important;
+        margin-top: 0px;
+    }
+    
+    #production .owl-carousel .owl-nav button.owl-next {
+        margin-right: 25px;
+    }
+    
+    #production .owl-carousel .owl-nav button.owl-prev {
+        color: #7c7d81;
+    }
+    
+    #production .owl-carousel .owl-nav button:focus {
+        outline: none !important;
+    }
+    
+    #production .owl-carousel .owl-item {
+        width: 150px !important;
+        margin-left: -60px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #production .owl-carousel .owl-item {
+            margin-left: 15px;
+        }
+    }
+    
+    #production .owl-carousel .card img {
+        width: 165px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin: auto;
+        margin-bottom: 13px;
+    }
+    
+    #production .owl-carousel .card h6 {
+        color: #56b8e9;
+        font-family: "Cairo", sans-serif;
+        margin-bottom: 15px;
+    }
+    
+    #production .owl-carousel .card p {
+        font-family: "Cairo", sans-serif;
+        font-weight: 600;
+    }
+    
+    #production .owl-carousel .owl-item {
+        width: 320px !important;
+        margin-left: 16px;
+    }
+    
+    #production .owl-carousel .card {
+        width: 100% !important;
+        padding: 35px 20px 5px 20px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        border: #e5e5e5 solid 2px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #production .owl-carousel .card {
+            width: 100% !important;
+        }
+    }
+    /**********************************Start Services Section ************************************/
+    
+    #Services {
+        margin: 90px 0px 50px 0px;
+    }
+    
+    #Services .title h1 {
+        margin: 20px 0px;
+        font-family: "Cairo", sans-serif;
+        font-weight: 600;
+    }
+    
+    #Services .bg {
+        width: 100%;
+        background-image: url("../imgs/bg30-Ar1web.gif");
+        padding: 90px 0px 110px 0px;
+    }
+    
+    #Services .row .card {
+        width: 100%;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        margin-bottom: 35px;
+        position: relative;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #Services .row .card {
+            width: 100% !important;
+        }
+    }
+    
+    #Services .row .card .text {
+        margin: 27px 0px;
+    }
+    
+    #Services .row .card a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: transparent;
+    }
+    
+    #Services .row .card img {
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+    
+    #Services .row .card p {
+        font-family: "Cairo", sans-serif;
+    }
+    
+    #Services a {
+        text-decoration: none;
+        color: white;
+        padding: 12px 80px;
+        background-color: #233142;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        font-family: "Cairo", sans-serif;
+    }
+    
+    #Services a:hover {
+        color: white;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #Services a {
+            margin-right: 0px !important;
+            margin-top: 20px;
+        }
+    }
+    /********************Start Artical Section*********************************/
+    
+    #articals {
+        padding-bottom: 55px;
+    }
+    
+    #articals .title h1 {
+        margin: 20px 0px;
+        font-family: "Cairo", sans-serif;
+        font-weight: 600;
+    }
+    
+    #articals .row .col-md-10 {
+        padding: 0px !important;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        margin-bottom: 35px;
+        border: none;
+        margin-bottom: 45px;
+        box-shadow: 3px 3px 3px 3px grey;
+        max-width: 67%;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #articals .row .col-md-10 {
+            max-width: 100% !important;
+        }
+    }
+    
+    #articals .row .col-md-10 img {
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+    
+    #articals .row .col-md-10 .text {
+        padding: 20px 20px 42px 20px;
+    }
+    
+    #articals .row .col-md-10 .text p {
+        font-family: "Cairo", sans-serif;
+        margin-bottom: 30px;
+    }
+    
+    #articals .row a {
+        text-decoration: none;
+        color: white;
+        padding: 12px;
+        background-color: #233142;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        font-family: "Cairo", sans-serif;
+    }
+    
+    #articals .btn {
+        text-decoration: none;
+        color: white;
+        padding: 12px 80px;
+        background-color: #233142;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        font-family: "Cairo", sans-serif;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #articals .btn {
+            margin-left: 50px;
+        }
+    }
+    
+    #articals .btn:hover {
+        color: white;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #articals .btn {
+            margin-right: 50px;
+        }
+    }
+    /****************Start Loggoes Section***************************/
+    
+    #loggoes {
+        padding-top: 65px;
+    }
+    
+    #loggoes .title h1 {
+        margin: 20px 0px;
+        font-family: "Cairo", sans-serif;
+        font-weight: 600;
+    }
+    
+    #loggoes .carousel {
+        padding: 101px 0px 90px 0px;
+        background-image: url("../imgs/our-client-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #loggoes .owl-carousel .owl-nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #loggoes .owl-carousel .owl-stage {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #loggoes .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+        font-size: 35px !important;
+        margin-top: 0px;
+    }
+    
+    #loggoes .owl-carousel .owl-nav button.owl-next {
+        margin-right: 25px;
+    }
+    
+    #loggoes .owl-carousel .owl-nav button.owl-prev {
+        color: #7c7d81;
+    }
+    
+    #loggoes .owl-carousel .owl-nav button:focus {
+        outline: none !important;
+    }
+    
+    #loggoes .owl-carousel .owl-item {
+        width: 150px !important;
+        margin-left: -60px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #loggoes .owl-carousel .owl-item {
+            margin-left: 15px;
+        }
+    }
+    /****************Start Contact Section****************************/
+    
+    #contact {
+        background-image: url("../imgs/footer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        padding: 85px 0px;
+    }
+    
+    #contact .right img {
+        width: 230px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #contact .right {
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 772px) {
+        #contact .left {
+            text-align: center;
+        }
+    }
+    
+    #contact .left img {
+        height: 62px;
+        margin-bottom: 30px;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #contact .left img {
+            margin-bottom: 45px !important;
+        }
+    }
+    
+    #contact .left p {
+        color: #dfe2c6;
+        font-family: "Cairo", sans-serif;
+    }
+    
+    #contact .left .links {
+        margin-top: 30px;
+    }
+    
+    #contact .left a {
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+    }
+    /*****************************************Secont Page*******************************************/
+    /*********************************Start Project Section**************************/
+    
+    #projects {
+        padding: 40px 0px;
+        background-image: url("../imgs/bg30-Ar1web.gif");
+    }
+    
+    #projects .titleProjects {
+        margin-bottom: 45px;
+    }
+    
+    #projects .titleProjects h2 {
+        position: relative;
+        padding-right: 60px;
+    }
+    
+    #projects .titleProjects h2::before {
+        content: "";
+        background-color: #4BB2E5;
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        right: 35px;
+        bottom: 0px;
+        top: -8px;
+    }
+    
+    #projects .row .img {
+        background-color: #fff;
+        width: 320px;
+        text-align: center;
+        border-radius: 25px;
+        box-shadow: 2px 2px 2px 2px grey;
+    }
+    
+    #projects .row img {
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+    
+    #projects .row p {
+        padding: 25px 0px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+    
+    #projects .Paginate {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    
+    #projects ul li {
+        border: 1px #ECEEF0 solid !important;
+        background-color: white;
+    }
+    
+    #projects .mt-5 {
+        position: relative;
+    }
+    
+    #projects .mt-5 a {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: transparent;
+    }
+    /******************************thirdpage ********************************/
+    
+    #Articals {
+        padding: 40px 0px;
+    }
+    
+    #Articals .container-fluid {
+        background-image: url("../imgs/articles.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        padding-top: 50px;
+    }
+    
+    #Articals .titleArticals {
+        margin-bottom: 45px;
+    }
+    
+    #Articals .titleArticals h2 {
+        position: relative;
+        padding-right: 60px;
+    }
+    
+    #Articals .titleArticals h2::before {
+        content: "";
+        background-color: #4BB2E5;
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        right: 35px;
+        bottom: 0px;
+        top: -8px;
+    }
+    
+    #Articals .Paginate {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    
+    #Articals ul li {
+        border: 1px #ECEEF0 solid !important;
+        background-color: white;
+    }
+    
+    #Articals .row .col-md-10 {
+        padding: 0px !important;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        margin-bottom: 35px;
+        border: none;
+        margin-bottom: 45px;
+        box-shadow: 3px 3px 3px 3px grey;
+        background-color: white;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #Articals .col-md-10 {
+            width: 100% !important;
+        }
+        #Articals .container-fluid {
+            background-image: none;
+        }
+    }
+    
+    #Articals .row .col-md-10 img {
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+    
+    #Articals .row .col-md-10 .text {
+        padding: 20px 20px 42px 20px;
+    }
+    
+    #Articals .row .col-md-10 .text p {
+        font-family: "Cairo", sans-serif;
+        margin-bottom: 30px;
+    }
+    
+    #Articals .row a {
+        text-decoration: none;
+        color: white;
+        padding: 12px;
+        background-color: #233142;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        font-family: "Cairo", sans-serif;
+    }
+    /*********************fourth page****************************/
+    /******************start project section ***********************/
+    
+    #project {
+        padding: 50px 0px;
+        background-color: #ECECEC;
+    }
+    
+    #project .titleProject {
+        margin-bottom: 45px;
+    }
+    
+    #project .titleProject h2 {
+        position: relative;
+        padding-right: 60px;
+        font-family: "Cairo", sans-serif;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #project .titleProject h2 {
+            font-size: 18px;
+        }
+        #project .contect {
+            margin: 0px 10px;
+        }
+    }
+    
+    #project .titleProject h2::before {
+        content: "";
+        background-color: #4BB2E5;
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        right: 35px;
+        bottom: 0px;
+        top: -8px;
+    }
+    
+    #project .col-md-6 {
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        box-shadow: 3px 3px gray !important;
+    }
+    
+    #project img {
+        width: 53% !important;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin: 20px;
+    }
+    
+    #project .text {
+        margin: 5px 5px 20px 5px;
+    }
+    
+    #project .text p {
+        font-family: "Cairo", sans-serif;
+        line-height: 32px;
+    }
+    /******************StartFifth Page**********************/
+    /***********************Start app section********************/
+    
+    #app {
+        padding: 50px 0px;
+    }
+    
+    #app .titleApp {
+        margin-bottom: 45px;
+    }
+    
+    #app .titleApp h2 {
+        position: relative;
+        padding-right: 60px;
+        font-family: "Cairo", sans-serif;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #pp .titleApp h2 {
+            font-size: 18px;
+        }
+        #app img {
+            max-width: 75% !important;
+        }
+    }
+    
+    #app .titleApp h2::before {
+        content: "";
+        background-color: #4BB2E5;
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        right: 35px;
+        bottom: 0px;
+        top: -8px;
+    }
+    
+    #app img {
+        max-width: 50%;
+    }
+    /***************************start details Section***********************/
+    
+    #details .titleApp {
+        margin-bottom: 45px;
+    }
+    
+    #details .titleApp h2 {
+        position: relative;
+        padding-right: 60px;
+        font-family: "Cairo", sans-serif;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #details .titleApp h2 {
+            font-size: 18px;
+        }
+    }
+    
+    #details .titleApp h2::before {
+        content: "";
+        background-color: #4BB2E5;
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        right: 35px;
+        bottom: 0px;
+        top: -8px;
+    }
+    
+    #details .pragraph {
+        padding: 75px 0px;
+        background-image: url("../imgs/details-bg.png");
+    }
+    
+    #details .pragraph p {
+        font-family: "Cairo", sans-serif;
+    }
+    /****************Start Spin Section*******************/
+    
+    #spin {
+        padding: 50px 0px;
+    }
+    
+    #spin .titleSpin {
+        margin-bottom: 45px;
+    }
+    
+    #spin .titleSpin h2 {
+        position: relative;
+        padding-right: 60px;
+        font-family: "Cairo", sans-serif;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #spin .titleSpin h2 {
+            font-size: 18px;
+        }
+    }
+    
+    #spin .titleSpin h2::before {
+        content: "";
+        background-color: #4BB2E5;
+        width: 5px;
+        height: 50px;
+        position: absolute;
+        right: 35px;
+        bottom: 0px;
+        top: -8px;
+    }
+    
+    #spin .owl-nav .owl-prev,
+    #spin .owl-nav .owl-next {
+        color: white;
+        background-color: black;
+        margin-right: 7px;
+        cursor: pointer;
+    }
+    
+    #spin .card-carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    @media screen and (max-width: 772px) {
+        #spin .card-carousel {
+            margin-left: 0px;
+        }
+    }
+    
+    #spin .card-carousel .my-card {
+        height: 20rem;
+        width: 12rem;
+        position: relative;
+        z-index: 1;
+        -webkit-transform: scale(0.6) translateY(-2rem);
+        transform: scale(0.6) translateY(-2rem);
+        opacity: 0;
+        cursor: pointer;
+        pointer-events: none;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    
+    #spin .card-carousel .my-card.active {
+        z-index: 3;
+        -webkit-transform: scale(1) translateY(0) translateX(0);
+        transform: scale(1) translateY(0) translateX(0);
+        opacity: 1;
+        pointer-events: auto;
+        transition: 1s;
+    }
+    
+    #spin .card-carousel .my-card.prev,
+    #spin .card-carousel .my-card.next {
+        z-index: 2;
+        -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+        transform: scale(0.8) translateY(-1rem) translateX(0);
+        opacity: 0.6;
+        pointer-events: auto;
+        transition: 1s;
+    }
+    
+    #spin .card-carousel .my-card.prev {
+        margin-left: -78px;
+    }
+    
+    #spin .card-carousel .my-card.next {
+        margin-right: -78px;
+    }
+    
+    #spin img {
+        width: 100%;
+    }
